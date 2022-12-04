@@ -1,12 +1,24 @@
 ﻿// Принимаем 2 числа (A и B)
-// Возводим А в степень В
+// Возводим А в степень В через !! ЦИКЛ !!
+// Выводим результат
 
 Console.WriteLine("Данная программа возводит число А в натуральную степень В");
+
 Console.Write("Введите число А: ");
-int numA = Convert.ToInt32(Console.ReadLine());
-Console.Write("Введите число B: ");
-int numB = Convert.ToInt32(Console.ReadLine());
+int num = Convert.ToInt32(Console.ReadLine()); // Число с которым мы будем проводить операции
 
-double res = Math.Pow(numA, numB);
+Console.Write("Введите число B: "); // Натуральная степень числа
+int powNum = Convert.ToInt32(Console.ReadLine());
 
-Console.WriteLine("Ответ: " + res);
+int iter = powNum; // Количество итераций
+
+int res = num; // Коробка куда будут складываться значения
+
+int index = 0; 
+
+for (index = 0; index < iter - 1; index++) // Цикл
+{
+    res = res * num; // Сама операция
+}
+
+Console.WriteLine(res); // Вывод на экран
