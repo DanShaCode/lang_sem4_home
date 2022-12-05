@@ -21,4 +21,4 @@ for (index = 0; index < iter - 1; index++) // Цикл
     res = res * num; // Сама операция
 }
 
-Console.WriteLine(res); // Вывод на экран
+Console.Write("Ответ: " + res); // Вывод на экран
