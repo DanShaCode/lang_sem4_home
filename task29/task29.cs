@@ -31,3 +31,5 @@ void PrintArray (int[] print)
 
 FillArray(newArray);
 PrintArray(newArray);
+
+//Протестировано

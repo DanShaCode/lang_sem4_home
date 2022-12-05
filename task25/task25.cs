@@ -22,3 +22,5 @@ for (index = 0; index < iter - 1; index++) // Цикл
 }
 
 Console.Write("Ответ: " + res); // Вывод на экран
+
+//Протестировал

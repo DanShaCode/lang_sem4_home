@@ -49,3 +49,6 @@ void SplitNumSum(int num) // Разделям число на количеств
 
 Count(num);
 SplitNumSum(num);
+
+
+//Протестировано
